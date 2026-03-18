@@ -1,0 +1,5 @@
+{
+	"targets": ["minecraft:pale_garden"],
+	"fog_end": "0.4 - max(0, min(0.25, (DAY_TIME%24000 > 12500) + (DAY_TIME%24000 < 1000) + (RAIN * 0.3)))",
+	"fog_start": "11.6 + max(-0.25, min(0.25, (DAY_TIME%24000 > 12500) + (DAY_TIME%24000 < 1000) + (RAIN * 0.5)))"
+}

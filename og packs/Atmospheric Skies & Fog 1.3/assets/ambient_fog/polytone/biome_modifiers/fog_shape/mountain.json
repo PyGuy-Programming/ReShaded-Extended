@@ -1,0 +1,30 @@
+{
+	"targets": ["minecraft:frozen_peaks", "minecraft:grove", "minecraft:jagged_peaks", "minecraft:savanna_plateau", "minecraft:snowy_slopes", "minecraft:stony_peaks", "minecraft:windswept_forest", "minecraft:windswept_gravelly_hills", "minecraft:windswept_hills", "minecraft:windswept_savanna",
+	 {
+	  "id": "natures_spirit:alpine_highlands",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:blooming_highlands",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:red_peaks",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:sleeted_slopes",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:snowcapped_red_peaks",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:windswept_sugi_forest",
+	  "required": false
+	 }
+	],
+	"fog_end": "1.02 - max(0, min(0.2, (DAY_TIME%24000 > 21500) + (DAY_TIME%21500 < 200) + (RAIN * 0.1) - max(0, 11 - SKY_LIGHT)))",
+	"fog_start": "8 + max(0.25, min(0.25, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 500) + (RAIN * 0.75) - max(0, 11 - SKY_LIGHT) * 100))"
+}

@@ -1,0 +1,54 @@
+{
+	"targets": ["minecraft:bamboo_jungle", "minecraft:dark_forest", "minecraft:jungle", "minecraft:old_growth_birch_forest", "minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga",
+	 {
+	  "id": "clifftree:snowy_old_growth_taiga",
+	  "required": false
+	 },
+	 {
+	  "id": "clifftree:tropical_river",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:amber_covert",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:aspen_forest",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:bamboo_wetlands",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:blooming_sugi_forest",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:maple_woodlands",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:redwood_forest",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:snowy_redwood_forest",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:tropical_woods",
+	  "required": false
+	 },
+	 {
+	  "id": "hybrid_beta:seasonal_forest",
+	  "required": false
+	 },
+	 {
+	  "id": "hybrid_beta:rainforest",
+	  "required": false
+	 }
+	],
+	"fog_end": "1.02 - max(0, min(0.2, (DAY_TIME%24000 > 21500) + (DAY_TIME%21500 < 200) + (RAIN * 0.1) - max(0, 11 - SKY_LIGHT)))",
+	"fog_start": "8 + max(0.25, min(0.25, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 500) + (RAIN * 0.75) - max(0, 11 - SKY_LIGHT) * 100))"
+}

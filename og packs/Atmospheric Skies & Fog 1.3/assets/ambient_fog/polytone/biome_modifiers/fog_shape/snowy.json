@@ -1,0 +1,18 @@
+{
+	"targets": ["minecraft:deep_frozen_ocean", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:ice_spikes", "minecraft:snowy_beach", "minecraft:snowy_plains",
+	 {
+	  "id": "clifftree:glacier_cliff",
+	  "required": false
+	 },
+	 {
+	  "id": "clifftree:glacier_valley",
+	  "required": false
+	 },
+	 {
+	  "id": "clifftree:snowy_diorite_shore",
+	  "required": false
+	 }
+	],
+	"fog_end": "1.02 - max(0, min(0.2, (DAY_TIME%24000 > 21500) + (DAY_TIME%21500 < 200) + (RAIN * 0.1) - max(0, 11 - SKY_LIGHT)))",
+	"fog_start": "8 + max(0.25, min(0.25, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 500) + (RAIN * 0.75) - max(0, 11 - SKY_LIGHT) * 100))"
+}

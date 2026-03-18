@@ -1,0 +1,111 @@
+{
+	"targets": [
+	 {
+	  "id": "autumnity:maple_forest",
+	  "required": false
+	 },
+	 {
+	  "id": "autumnity:pumpkin_fields",
+	  "required": false
+	 },
+	 {
+	  "id": "clifftree:granite_shore",
+	  "required": false
+	 },
+	 {
+	  "id": "clifftree:gravelly_beach",
+	  "required": false
+	 },
+	 {
+	  "id": "clifftree:stone_ocean",
+	  "required": false
+	 },
+	 {
+	  "id": "clifftree:temperate_beach",
+	  "required": false
+	 },
+	 {
+	  "id": "clifftree:tropical_beach",
+	  "required": false
+	 },
+	 {
+	  "id": "clifftree:warm_river",
+	  "required": false
+	 },
+	 {
+	  "id": "clifftree:tundra",
+	  "required": false
+	 },
+	 {
+	  "id": "alexscaves:abyssal_chasm",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:carnation_fields",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:cypress_fields",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:flowering_shrubland",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:heather_fields",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:lavender_fields",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:golden_wilds",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:marigold_meadows",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:oak_savanna",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:prairie",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:shrubby_highlands",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:shrubland",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:tropical_shores",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:tundra",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:white_cliffs",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:woody_highlands",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:xeric_plains",
+	  "required": false
+	 },
+	 "minecraft:beach", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_ocean", "minecraft:lukewarm_ocean", "minecraft:meadow", "minecraft:mushroom_fields", "minecraft:ocean", "minecraft:plains", "minecraft:river", "minecraft:savanna", "minecraft:stony_shore", "minecraft:sunflower_plains", "minecraft:warm_ocean"
+	 ],
+	"fog_end": "1.02 - max(0, min(0.2, (DAY_TIME%24000 > 21500) + (DAY_TIME%21500 < 200) + (RAIN * 0.1) - max(0, 11 - SKY_LIGHT)))",
+	"fog_start": "8 + max(0.25, min(0.25, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 500) + (RAIN * 0.75) - max(0, 11 - SKY_LIGHT) * 100))"
+}

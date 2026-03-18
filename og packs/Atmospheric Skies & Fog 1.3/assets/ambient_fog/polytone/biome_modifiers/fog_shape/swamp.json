@@ -1,0 +1,18 @@
+{
+	"targets": ["minecraft:swamp", "minecraft:mangrove_swamp",
+	 {
+	  "id": "clifftree:bog",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:marsh",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:tropical_basin",
+	  "required": false
+	 }
+	],
+	"fog_end": "0.6 - max(0, min(0.3, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 1000) + (RAIN * 0.3) - max(0, 11 - SKY_LIGHT)))",
+	"fog_start": "10.65 + max(-0.65, min(0.35, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 1000) + (RAIN * 0.35)- max(0, 11 - SKY_LIGHT)*100))"
+}

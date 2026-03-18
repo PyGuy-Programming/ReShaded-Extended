@@ -1,0 +1,29 @@
+Vanilla Tweaks Resource Pack
+Version: 1.21
+Packs:
+	SmileyAxolotls
+	HungerBarsCarrot
+	ShortSwords
+	SmallerUtilities
+	QuieterSculkShriekers
+	QuieterNetherPortals
+	QuieterThunder
+	QuieterRain
+	ClearerWater
+	UniversalLushGrass
+	RainbowExperience
+	TransparentUI
+	QuieterHorses
+	QuieterEndermen
+	QuieterEnderDragon
+	QuieterArmadillos
+	ArmorBarsChainmail
+	LowerShield
+	LowerFire
+	UnobtrusiveParticles
+	NoFallingLeafParticles
+	NoPumpkinOverlay
+	UnobtrusiveRain
+	UnobtrusiveSnow
+	ColoredHeartsPurple
+	MoreCrosshairs-SmallCross

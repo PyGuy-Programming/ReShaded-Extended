@@ -1,0 +1,58 @@
+{
+	"targets": ["minecraft:badlands", "minecraft:desert", "minecraft:eroded_badlands", "minecraft:wooded_badlands",
+	 {
+	  "id": "clifftree:desert_cliff",
+	  "required": false
+	 },
+	 {
+	  "id": "clifftree:oasis",
+	  "required": false
+	 },
+	 {
+	  "id": "clifftree:shrubland",
+	  "required": false
+	 },
+	 {
+	  "id": "clifftree:coniferous_badlands",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:arid_highlands",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:arid_savanna",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:blooming_dunes",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:drylands",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:dusty_slopes",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:lively_dunes",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:scorched_dunes",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:stratified_desert",
+	  "required": false
+	 },
+	 {
+	  "id": "natures_spirit:wooded_drylands",
+	  "required": false
+	 }
+	],
+	"fog_end": "0.7.5 - max(0, min(0.35, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 1000) + (RAIN * 0.35) - max(0, 11 - SKY_LIGHT)))",
+	"fog_start": "5 + max(-0.5, min(0.5, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 1000) + (RAIN * 0.5) - max(0, 11 - SKY_LIGHT) * 100))"
+}
